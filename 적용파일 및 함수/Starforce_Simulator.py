@@ -1,6 +1,5 @@
 import sys
 import random
-import time
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
