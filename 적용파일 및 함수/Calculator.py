@@ -63,6 +63,6 @@ def calcMeso(prevStar, nowWeaponText, PCRoom, sunday, preventDestroy, mvp):
     # 썬데이메이플(일요일 한정 이벤트) 할인(곱연산)
     if sunday == True:
         useMeso *= 0.7
-    if preventDestroy == True:
+    if prevStar > 11 and prevStar < 17 and preventDestroy == True:
         useMeso *= 2
     return int(useMeso)
